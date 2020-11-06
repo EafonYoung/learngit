@@ -1,0 +1,288 @@
+*{padding: 0px; margin: 0px;}
+html {
+    font-size: 24px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: "Microsoft YaHei", "微软雅黑", Helvetica, Arial;
+}
+.clear{
+	clear:both;
+}
+
+.content{
+	max-width: 720px; 
+	min-width: 320px;
+	margin:0 auto; 
+	margin-top: 100px;
+	position: relative;
+	height: 500px;
+}
+.wrap{
+	width: 90%;
+	margin:0 auto;
+}
+
+.comRow{
+	width: 100%;
+	height:48px;
+	line-height: 48px;
+}
+.comRow img{
+	width: 1.28rem;
+	height: 1.28rem;
+	float: left;
+	padding-top: 8px;
+}
+.username,
+.phone,
+.address,
+.qq{
+	float: left;
+	font-size: 0.68rem;
+	margin-left: 10px;
+    text-align: justify;
+    text-align-last: justify;
+}
+.users,
+.tel,
+.qqText,
+.qqText2{
+	height: 20px;
+	line-height: 20px;
+	float: left;
+    border:none;
+    margin-top: 4px;
+    padding: 10px 0 10px 0;
+    outline: none;
+    font-size: 0.6rem;
+    font-family: "Microsoft YaHei", "微软雅黑", Helvetica, Arial;
+    resize:none;
+    overflow: hidden;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.addr{
+	height: 40px;
+	float: left;
+    border:none;
+    margin-top: 4px;
+    padding: 11px 0 10px 0;
+    outline: none;
+    font-size: 0.6rem;
+    font-family: "Microsoft YaHei", "微软雅黑", Helvetica, Arial;
+    resize:none;
+    overflow: hidden;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+@media screen and (max-width: 340px) { 
+.username,
+.phone,
+.address,
+.qq{
+	width: 30%;
+
+}
+.users,
+.tel,
+.addr,
+.qqText,
+.qqText2{
+	width: 50%;
+}
+.username_error,
+.phone_error,
+.address_error,
+.qq_error,
+.qq_error2{
+    padding-left: 45.5%;
+}
+}
+@media screen and (min-width: 341px) and (max-width: 380px) { 
+.username,
+.phone,
+.address,
+.qq{
+	width: 28%;
+
+}
+.users,
+.tel,
+.addr,
+.qqText,
+.qqText2{
+	width: 55%;
+
+}
+.username_error,
+.phone_error,
+.address_error,
+.qq_error,
+.qq_error2{
+    padding-left: 41%;
+}
+}
+@media screen and (min-width: 381px) and (max-width: 420px) { 
+.username,
+.phone,
+.address,
+.qq{
+	width: 24%;
+
+}
+.users,
+.tel,
+.addr,
+.qqText,
+.qqText2{
+	width: 60%;
+
+}
+.username_error,
+.phone_error,
+.address_error,
+.qq_error,
+.qq_error2{
+    padding-left: 36.5%;
+}
+}
+@media screen and (min-width: 421px) and (max-width: 567px) { 
+.username,
+.phone,
+.address,
+.qq{
+	width: 20%;
+
+}
+.users,
+.tel,
+.addr,
+.qqText,
+.qqText2{
+	width: 67%;
+
+}
+.username_error,
+.phone_error,
+.address_error,
+.qq_error,
+.qq_error2{
+    padding-left: 30.5%;
+}
+}
+@media screen and (min-width: 568px) and (max-width: 639px) { 
+.username,
+.phone,
+.address,
+.qq{
+	width: 17%;
+
+}
+.users,
+.tel,
+.addr,
+.qqText,
+.qqText2{
+	width: 72%;
+
+}
+.username_error,
+.phone_error,
+.address_error,
+.qq_error,
+.qq_error2{
+    padding-left: 26%;
+}
+}
+@media screen and (min-width: 640px) and (max-width: 735px) { 
+.username,
+.phone,
+.address,
+.qq{
+	width: 15%;
+
+}
+.users,
+.tel,
+.addr,
+.qqText,
+.qqText2{
+	width: 77%;
+
+}
+.username_error,
+.phone_error,
+.address_error,
+.qq_error,
+.qq_error2{
+    padding-left: 23%;
+}
+}
+
+@media screen and (min-width: 736px) { 
+.username,
+.phone,
+.address,
+.qq{
+	width: 15%;
+
+}
+.users,
+.tel,
+.addr,
+.qqText,
+.qqText2{
+	width: 77%;
+
+}
+.username_error,
+.phone_error,
+.address_error,
+.qq_error,
+.qq_error2{
+    padding-left: 22.5%;
+}
+}
+
+.username_error,
+.phone_error,
+.address_error,
+.qq_error,
+.qq_error2{
+	color: #f60000;
+    font-size: 0.6rem;
+    margin: 0 auto;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+.line{
+	width: 96%;
+	margin:0 auto;
+	border-top: 1px dotted #ff9700;
+	margin-top: 5%;
+	margin-bottom: 40px;
+}
+.submit{
+	width: 60%;
+	height: 42px;
+	position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background: #f19b00;
+	font-size: 20px;
+	font-family: Helvetica, "microsoft yahei";
+	color: #fff;
+	outline: none;
+	border: 1px solid #f19b00;
+	border-radius: 8px;
+	letter-spacing: 2px;
+	line-height: 42px;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	margin-bottom: 100px;
+}
+
+.tips{
+	font-size: 14px;
+	margin-left: 40px;
+}
